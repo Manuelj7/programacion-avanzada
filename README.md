@@ -1,16 +1,67 @@
 # 🚚 Sistema de Gestión de Pedidos
 
-Sistema desarrollado para la gestión de pedidos de clientes, permitiendo registrar pedidos, calcular totales automáticamente, cambiar estados y generar reportes de ventas.
+Sistema web desarrollado con Django para la gestión de pedidos de clientes.  
+Permite registrar pedidos, administrar estados, calcular totales automáticamente y generar reportes de ventas.
 
-## 📋 Requisitos Previos
+---
+
+# 📌 Características
+
+✅ Registro de pedidos de clientes  
+✅ Cálculo automático de totales  
+✅ Gestión de estados de pedidos  
+✅ Base de datos SQLite integrada  
+✅ Panel administrativo de Django  
+✅ Generación de reportes de ventas  
+✅ Arquitectura organizada con Django 5.2
+
+---
+
+# 🛠 Tecnologías Utilizadas
+
+- Python 3.10+
+- Django 5.2
+- SQLite3
+- HTML / CSS
+- Git & GitHub
+
+---
+
+# 📂 Estructura del Proyecto
+
+```bash
+programacion-avanzada/
+│
+├── paper/                 # Aplicación principal
+│
+├── proyecto/              # Configuración general del proyecto Django
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── db.sqlite3             # Base de datos SQLite
+├── manage.py              # Administrador principal de Django
+└── README.md
+```
+
+---
+
+# ⚙️ Requisitos Previos
+
+Antes de ejecutar el proyecto necesitas tener instalado:
 
 - Python 3.10 o superior
-- pip (gestor de paquetes de Python)
+- pip
 - Git
-  django version 5.2
-## 🔧 Instalación
+- Django 5.2
 
-### 1. Clonar el repositorio
+Verifica las versiones:
+
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
-cd <nombre_del_proyecto>
+python --version
+pip --version
+```
+
+
+
