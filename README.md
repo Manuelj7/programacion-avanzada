@@ -7,7 +7,7 @@ Sistema desarrollado para la gestión de pedidos de clientes, permitiendo regist
 - Python 3.10 o superior
 - pip (gestor de paquetes de Python)
 - Git
-
+  django version 5.2
 ## 🔧 Instalación
 
 ### 1. Clonar el repositorio
